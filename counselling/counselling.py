@@ -92,7 +92,7 @@ def scraping ():
 
     df = pd.DataFrame(df)
   
-    # df.to_csv(f'{category}.csv', index=False)
+    df.to_csv(f'{category}.csv', index=False)
     print ( f'{category} added to csv')
     return df
     
