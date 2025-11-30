@@ -38,7 +38,7 @@ company_web_addresses = []
 company_contacts = []
 company_emails = []
 
-category = 'construction'
+category = 'counselling'
 url = f'https://ukbusinessportal.co.uk/category/{category}/'
 
 responds = requests.get(url)
